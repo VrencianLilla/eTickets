@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vrenc\\OneDrive\\Documents\\E G Y E T E M\\eTickets\\eTickets\\eTickets\\eTickets.csproj": {}
+    "C:\\Users\\vrenc\\OneDrive\\Documents\\E G Y E T E M\\eTickets\\eTickets\\eTickets\\eTickets\\eTickets.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vrenc\\OneDrive\\Documents\\E G Y E T E M\\eTickets\\eTickets\\eTickets\\eTickets.csproj": {
+    "C:\\Users\\vrenc\\OneDrive\\Documents\\E G Y E T E M\\eTickets\\eTickets\\eTickets\\eTickets\\eTickets.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vrenc\\OneDrive\\Documents\\E G Y E T E M\\eTickets\\eTickets\\eTickets\\eTickets.csproj",
+        "projectUniqueName": "C:\\Users\\vrenc\\OneDrive\\Documents\\E G Y E T E M\\eTickets\\eTickets\\eTickets\\eTickets\\eTickets.csproj",
         "projectName": "eTickets",
-        "projectPath": "C:\\Users\\vrenc\\OneDrive\\Documents\\E G Y E T E M\\eTickets\\eTickets\\eTickets\\eTickets.csproj",
+        "projectPath": "C:\\Users\\vrenc\\OneDrive\\Documents\\E G Y E T E M\\eTickets\\eTickets\\eTickets\\eTickets\\eTickets.csproj",
         "packagesPath": "C:\\Users\\vrenc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vrenc\\OneDrive\\Documents\\E G Y E T E M\\eTickets\\eTickets\\eTickets\\obj\\",
+        "outputPath": "C:\\Users\\vrenc\\OneDrive\\Documents\\E G Y E T E M\\eTickets\\eTickets\\eTickets\\eTickets\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vrenc\\AppData\\Roaming\\NuGet\\NuGet.Config",

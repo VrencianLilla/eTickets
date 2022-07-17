@@ -5,6 +5,9 @@
         Action = 1,
         Comedy, 
         Drama, 
-        Documentary
+        Documentary,
+        science_fiction,
+        Cartoon,
+        Horror
     }
 }

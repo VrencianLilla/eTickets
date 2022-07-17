@@ -50,9 +50,7 @@ C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTick
 C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\obj\Debug\net6.0\eTickets.RazorAssemblyInfo.cs
 C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\obj\Debug\net6.0\scopedcss\bundle\eTickets.styles.css
-C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\obj\Debug\net6.0\scopedcss\projectbundle\eTickets.bundle.scp.css
 C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\obj\Debug\net6.0\eTickets.csproj.CopyComplete
 C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\obj\Debug\net6.0\eTickets.dll
 C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\obj\Debug\net6.0\refint\eTickets.dll

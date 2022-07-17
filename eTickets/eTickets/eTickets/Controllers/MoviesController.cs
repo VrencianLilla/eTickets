@@ -1,5 +1,6 @@
 ﻿using eTickets.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace eTickets.Controllers
 {
@@ -11,10 +12,10 @@ namespace eTickets.Controllers
         {
             _context = context;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var data = _context.Movies.ToList();
-            return View();
+            var allMovies = await _context.Movies.ToListAsync();
+            return View(allMovies);
         }
     }
 }

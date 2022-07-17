@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VCElZe6LDq6WaXMHOitWo/mTiGk1Cs8JjC4D+bsp2JI=",
+  "Hash": "w3mqUx2RlkG5TNRTCbIDJCbIt2nVBaMBSPeMxI0ptMo=",
   "Source": "eTickets",
   "BasePath": "_content/eTickets",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\vrenc\\OneDrive\\Documents\\E G Y E T E M\\eTickets\\eTickets\\eTickets\\eTickets\\obj\\Debug\\net6.0\\scopedcss\\bundle\\eTickets.styles.css",
-      "SourceId": "eTickets",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\vrenc\\OneDrive\\Documents\\E G Y E T E M\\eTickets\\eTickets\\eTickets\\eTickets\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/eTickets",
-      "RelativePath": "eTickets.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\vrenc\\OneDrive\\Documents\\E G Y E T E M\\eTickets\\eTickets\\eTickets\\eTickets\\obj\\Debug\\net6.0\\scopedcss\\bundle\\eTickets.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\vrenc\\OneDrive\\Documents\\E G Y E T E M\\eTickets\\eTickets\\eTickets\\eTickets\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\eTickets.bundle.scp.css",
-      "SourceId": "eTickets",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\vrenc\\OneDrive\\Documents\\E G Y E T E M\\eTickets\\eTickets\\eTickets\\eTickets\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/eTickets",
-      "RelativePath": "eTickets.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\vrenc\\OneDrive\\Documents\\E G Y E T E M\\eTickets\\eTickets\\eTickets\\eTickets\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\eTickets.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Users\\vrenc\\OneDrive\\Documents\\E G Y E T E M\\eTickets\\eTickets\\eTickets\\eTickets\\wwwroot\\css\\site.css",
       "SourceId": "eTickets",

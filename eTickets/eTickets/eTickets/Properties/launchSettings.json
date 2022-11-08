@@ -18,6 +18,7 @@
       }
     },
     "IIS Express": {
+      "launchUrl": "Movies",
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {

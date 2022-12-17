@@ -10,10 +10,17 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(buil
 
 //Service configuration
 builder.Services.AddScoped<IActorsService, ActorsService>();
+builder.Services.AddScoped<IProducersService, ProducersService>();
 
 builder.Services.AddControllersWithViews();
 
+//Dockerize the app
+builder.Services.AddHealthChecks();
+
 var app = builder.Build();
+
+//dockerize the app
+app.MapHealthChecks("/health");
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

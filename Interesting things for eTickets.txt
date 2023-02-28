@@ -1,0 +1,14 @@
+if u write "ctor" and after press tab+tab (double tab), then it will write out for u for example:
+public AppDbContext(){
+
+}
+
+in the 9 version of mvc, we dont have startup.cs file. Now everything is in the pr-
+ogram file. You need to write in the program file builder.Service... in order to wo-
+rk the same way as before.
+
+if i write "prop" in a class file then tab+tab, it will write for u the code.
+
+In visual studio 2022 version 6 we dont have Startup.cs anymore. Everything is in the Program.cs file.
+Whatever u wirte in the ConfigureServices, you will write it directly in the Program.cs file. //Add services to the container <- after this
+Instead of writing services. ... like before, u need to write builder.Services. ...

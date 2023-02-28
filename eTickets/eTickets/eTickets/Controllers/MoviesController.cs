@@ -32,9 +32,9 @@ namespace eTickets.Controllers
         {
             var movieDropdownData = await _service.GetNewMovieDropdownsValues();
 
-            ViewBag.CinemaId = new SelectList(movieDropdownData.Cinemas, "Id", "FullName");
-            ViewBag.ProducerId = new SelectList(movieDropdownData.Producers, "Id", "Name");
-            ViewBag.ActorId = new SelectList(movieDropdownData.Actors, "Id", "FullName");
+            ViewBag.Cinemas = new SelectList(movieDropdownData.Cinemas, "Id", "Name");
+            ViewBag.Producers = new SelectList(movieDropdownData.Producers, "Id", "FullName");
+            ViewBag.Actors = new SelectList(movieDropdownData.Actors, "Id", "FullName");
 
             return View();
         }

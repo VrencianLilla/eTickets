@@ -5,6 +5,7 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = eTickets
 build_property.RootNamespace = eTickets
@@ -61,6 +62,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/vrenc/OneDrive/Documents/E G Y E T E M/eTickets/eTickets/eTickets/eTickets/Views/Movies/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vrenc/OneDrive/Documents/E G Y E T E M/eTickets/eTickets/eTickets/eTickets/Views/Movies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vrenc/OneDrive/Documents/E G Y E T E M/eTickets/eTickets/eTickets/eTickets/Views/Movies/Index.cshtml]

@@ -6,16 +6,18 @@
 
 @*write code*@
 <div class="row">
-	@foreach (var item in Model){
+	@foreach (var item in Model)
+	{
 		<div class="col-md-4 col-xs-6 border-primary mb-3">
-			<div class="card mb-3" style="max-width: 540px">
+			<div class="card mb-3" style="max-width: 540px;">
 				<div class="row g-0">
 					<div class="col-md-12">
-						<div class="card-header text-white" style="background-color: purple">
+						<div class="card-header text-white" style="background-color: green">
 							<p class="card-text">
 								<h5 class="card-title">
 									@item.Name
-									<a class="text-white float-right"><i class="bi bi-pencil-square"></i></a>
+									<a class="text-white" style="position:absolute; left:500px;" asp-action="Edit" asp-route-id="@item.Id"><i class="bi bi-pencil-square"></i></a>
+									
 								</h5>
 							</p>
 						</div>

@@ -25,7 +25,7 @@ namespace eTickets.Data
                         new Cinema()
                         {
                             Name = "Cinema 2",   //Cinema City Maros
-                            Logo = "images/cinema_city.jpg",
+                            Logo = "",
                             Description = "Cinema City este cel mai mare operator de cinema din România şi face parte din Cineworld Group, al doilea mare lanţ de cinema din Europa."
                         },
                         new Cinema()

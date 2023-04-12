@@ -1,12 +1,13 @@
 ﻿using eTickets.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace eTickets.Data.Cart
 {
 	public class ShoppingCart
 	{
         public AppDbContext _context { get; set; }
-        public string ShoppingCartId { get; set; }
+        public string ShoppingCartId { get; set; }  //placeholder
         public List<ShoppingCartItem> ShoppingCartItems { get; set; }
 
         public ShoppingCart(AppDbContext context)
@@ -14,12 +15,24 @@ namespace eTickets.Data.Cart
             _context = context;
         }
 
-        public void AddItemToCart (Movie movie)
+		public static ShoppingCart GetShoppingCart(IServiceProvider services)
+		{
+			ISession session = services.GetRequiredService<IHttpContextAccessor>().HttpContext.Session;
+			var context = services.GetService<AppDbContext>();
+
+			string cartId = session.GetString("CartId") ?? Guid.NewGuid().ToString();
+			session.SetString("CartId", cartId);
+
+			return new ShoppingCart(context) { ShoppingCartId = cartId };
+		}
+
+		public void AddItemToCart (Movie movie)
         {
-            var shoppingCartItem = _context.ShoppingCartItems.FirstOrDefault(n => n.Movie.Id == movie.Id &&
+			var shoppingCartItem = _context.ShoppingCartItems.FirstOrDefault(n => n.Movie.Id == movie.Id &&
             n.ShoppingCartId == ShoppingCartId);
 
-            if(shoppingCartItem == null)
+
+			if (shoppingCartItem == null)
             {
                 shoppingCartItem = new ShoppingCartItem()
                 {
@@ -56,15 +69,13 @@ namespace eTickets.Data.Cart
 			_context.SaveChanges();
 		}
 
-        public List<ShoppingCartItem> GetShoppingCartItems() {
-            return ShoppingCartItems ?? (ShoppingCartItems = _context.ShoppingCartItems.Where(n => n.ShoppingCartId == 
+		public List<ShoppingCartItem> GetShoppingCartItems()
+		{
+			return ShoppingCartItems ?? (ShoppingCartItems = _context.ShoppingCartItems.Where(n => n.ShoppingCartId ==
             ShoppingCartId).Include(n => n.Movie).ToList());
-        }
+		}
 
-        public double GetShoppingCartTotal()
-        {
-            var total = _context.ShoppingCartItems.Where(n => n.ShoppingCartId == ShoppingCartId).Select(n => n.Movie.Price * n.Amount).Sum();
-            return total;
-        }
+		public double GetShoppingCartTotal() => _context.ShoppingCartItems.Where(n => n.ShoppingCartId ==
+        ShoppingCartId).Select(n => n.Movie.Price * n.Amount).Sum();
     }
 }

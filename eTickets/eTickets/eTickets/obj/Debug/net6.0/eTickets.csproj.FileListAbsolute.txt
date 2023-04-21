@@ -276,6 +276,9 @@ C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTick
 C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\bin\Debug\net6.0\Humanizer.dll
 C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\bin\Debug\net6.0\MessagePack.dll
 C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\bin\Debug\net6.0\MessagePack.Annotations.dll
+C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\bin\Debug\net6.0\Microsoft.Build.dll
@@ -303,6 +306,8 @@ C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTick
 C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\vrenc\OneDrive\Documents\E G Y E T E M\eTickets\eTickets\eTickets\eTickets\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll

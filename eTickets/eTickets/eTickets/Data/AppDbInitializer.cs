@@ -20,21 +20,27 @@ namespace eTickets.Data
                     {
                         new Cinema()
                         {
-                            Name = "Cinema 1",   //Cinema One Brasso
-                            Logo = "",
-                            Description = "Cinema One Brașov este destinația ideală pentru cinefilii care doresc să își petreacă timpul liber într-o atmosferă deosebită. Aici pot fi vizionate cele mai noi filme, într-un spațiu creat special pentru pasionații de film și spectacol."
+                            Name = "Cinema One",   //Cinema One Brasso
+                            Logo = "https://www.fest.ro/files/places/11/image_1199_1_large.jpg",
+                            Description = "Cinema One Brașov este destinația ideală pentru cinefilii" +
+                                            " care doresc să își petreacă timpul liber într-o atmosferă deosebită." +
+                                            " Aici pot fi vizionate cele mai noi filme, într-un spațiu creat special" +
+                                            " pentru pasionații de film și spectacol."
                         },
                         new Cinema()
                         {
-                            Name = "Cinema 2",   //Cinema City Maros
-                            Logo = "",
-                            Description = "Cinema City este cel mai mare operator de cinema din România şi face parte din Cineworld Group, al doilea mare lanţ de cinema din Europa."
+                            Name = "Cinema City",   //Cinema City Maros
+                            Logo = "https://cdn-ukwest.onetrust.com/logos/5922c8a7-c44a-4864-9773-804dd97f3b15/f34055f9-6c0b-4d74-8bbd-5408ead3b445/c6feb110-9eb7-4055-be06-409f0d2c5223/CCrounded.png",
+                            Description = "Cinema City este cel mai mare operator de cinema din România şi face parte" +
+                            " din Cineworld Group, al doilea mare lanţ de cinema din Europa."
                         },
                         new Cinema()
                         {
-                            Name = "Cinema 3",   //Cineplexx Maros
-                            Logo = "",
-                            Description = "Cineplexx Targu Mures este cel mai nou multiplex din oras, dotat cu cele mai avansate tehnologii de imagine si sunet din lume: Dolby Atmos, RealD Silver Screen si proiector cu laser."
+                            Name = "Cineplexx",   //Cineplexx Maros
+                            Logo = "https://s3proxygw.cineplexx.at/vapc-ro-pimcore/assets/_default_upload_bucket/89339725_136908084528296_2319869874186223616_n_3.jpg",
+                            Description = "Cineplexx Targu Mures este cel mai nou multiplex din oras, dotat" +
+                            " cu cele mai avansate tehnologii de imagine si sunet din lume: Dolby Atmos, RealD Silver" +
+                            " Screen si proiector cu laser."
                         },
                     });
 
@@ -50,32 +56,32 @@ namespace eTickets.Data
                         {
                             FullName = "Dylan O'Brien",   //Dylan O'Brien
                             Bio = "This is the Bio of Dylan O'Brien",
-                            ProfilePictureURL = "",
+                            ProfilePictureURL = "https://upload.wikimedia.org/wikipedia/commons/0/08/Dylan_O%27Brien_2014_%28cropped%29.jpg",
 
                         },
                         new Actor()
                         {
                             FullName = "Kim Min-gue",   //Kim Min-gue
                             Bio = "This is the Bio of Kim Min-gue",
-                            ProfilePictureURL = ""
+                            ProfilePictureURL = "https://contents.pep.ph/images2/images2/2023/03/17/kim-min-kyu-main-image-1679053995.jpg"
                         },
                         new Actor()
                         {
                             FullName = "Joseph Gordon-Levitt",  //Joseph Gordon-Levitt
                             Bio = "This is the Bio of Joseph Gordon-Levitt",
-                            ProfilePictureURL = ""
+                            ProfilePictureURL = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Joseph_Gordon-Levitt_2013.jpg/399px-Joseph_Gordon-Levitt_2013.jpg"
                         },
                         new Actor()
                         {
                             FullName = "Selena Gomez",  //Selena Gomez
                             Bio = "This is the Bio of Selena Gomez",
-                            ProfilePictureURL = ""
+                            ProfilePictureURL = "https://api.time.com/wp-content/uploads/2020/09/time-100-Selena-Gomez.jpg"
                 },
                          new Actor()
                         {
                             FullName = "Thomas Brodie-Sangster",  //Joseph Gordon-Levitt
                             Bio = "This is the Bio of Thomas Brodie-Sangster",
-                            ProfilePictureURL = ""
+                            ProfilePictureURL = "https://www.tvinsider.com/wp-content/uploads/2022/11/thomas-brodie-sangster-1014x570.jpg"
                         },
 
                     });
@@ -90,19 +96,19 @@ namespace eTickets.Data
                         {
                             FullName = "Bong Joon-ho",  //Parasites
                             Bio = "Bio",
-                            ProfilePictureURL = ""
+                            ProfilePictureURL = "https://variety.com/wp-content/uploads/2020/02/bong-joon-ho-2.jpg"
                         },
                         new Producer()
                         {
                             FullName = "Wes Ball",  //The Maze Runner
                             Bio = "Bio",
-                            ProfilePictureURL = ""
+                            ProfilePictureURL = "https://static.kinoafisha.info/k/persons/220/upload/persons/173324718740.jpg"
                         },
                         new Producer()
                         {
                             FullName = "Robert Zemeckis",  //The Walk
                             Bio = "Bio",
-                            ProfilePictureURL = ""
+                            ProfilePictureURL = "https://images.squarespace-cdn.com/content/v1/5c62c09c4d546e27dc1016c7/1557234323360-GEZ7ILIM1IC410AF2C4B/bio_robert-zemeckis.jpg"
                         },
                         new Producer()
                         {
@@ -123,7 +129,7 @@ namespace eTickets.Data
                             Name = "The Maze Runner",
                             Description = "This is the Maze Runner description",
                             Price = 29.50,
-                            ImageURL = "",
+                            ImageURL = "https://w0.peakpx.com/wallpaper/817/577/HD-wallpaper-maze-runner-the-maze-runner-thomas.jpg",
                             StartDate = DateTime.Now,
                             EndDate = DateTime.Now.AddDays(3),
                             CinemaId = 1,
@@ -135,7 +141,7 @@ namespace eTickets.Data
                             Name = "Parasites",
                             Description = "description",
                             Price = 39.50,
-                            ImageURL = "",
+                            ImageURL = "https://wallpapercave.com/wp/wp5510260.jpg",
                             StartDate = DateTime.Now,
                             EndDate = DateTime.Now.AddDays(7),
                             CinemaId = 2,
@@ -147,7 +153,7 @@ namespace eTickets.Data
                             Name = "The Walk",
                             Description = "description",
                             Price = 39.50,
-                            ImageURL = "",
+                            ImageURL = "https://e1.pxfuel.com/desktop-wallpaper/213/802/desktop-wallpaper-the-walk-movie-hq-the-walk-the-walk.jpg",
                             StartDate = DateTime.Now.AddDays(-10),
                             EndDate = DateTime.Now.AddDays(10),
                             CinemaId = 3,
@@ -159,7 +165,7 @@ namespace eTickets.Data
                             Name = "Hotel Transylvania 4",
                             Description = "This is Hotel Transylvania 4 movie description",
                             Price = 39.50,
-                            ImageURL = "",
+                            ImageURL = "https://wallpapercave.com/wp/wp9510951.jpg",
                             StartDate = DateTime.Now.AddDays(-10),
                             EndDate = DateTime.Now.AddDays(-5),
                             CinemaId = 3,

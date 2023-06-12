@@ -1,4 +1,5 @@
-﻿using eTickets.Models;
+﻿using eTickets.Data.Static;
+using eTickets.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 

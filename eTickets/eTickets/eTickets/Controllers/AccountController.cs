@@ -26,12 +26,7 @@ namespace eTickets.Controllers
             return View(users);
         }
 
-        public IActionResult Login()
-		{
-			var response = new LoginVM();
-
-			return View(response);
-		}
+        public IActionResult Login() => View(new LoginVM());
 
 		[HttpPost]
 		public async Task<IActionResult> Login(LoginVM loginVM)
@@ -54,7 +49,7 @@ namespace eTickets.Controllers
                 return View(loginVM);
             }
 
-			TempData["Error"] = "Wrong credentials. Please, try again!";
+			TempData["Error"] = "Wrong credentials (or User does not exists). Please, try again!";
 			return View(loginVM);
 		}
 
@@ -87,7 +82,14 @@ namespace eTickets.Controllers
             var newUserResponse = await _userManager.CreateAsync(newUser, registerVM.Password);
 
             if (newUserResponse.Succeeded)
+            {
                 await _userManager.AddToRoleAsync(newUser, UserRoles.User);
+            }
+            else
+            {
+                TempData["Error"] = "The Password needs at least one upper case character, one lower case character, one special character and number!";
+                return View(registerVM);
+            }
 
             return View("RegisterCompleted");
         }

@@ -40,7 +40,7 @@ namespace eTickets.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Actors");
+                    b.ToTable("Actors", (string)null);
                 });
 
             modelBuilder.Entity("eTickets.Models.Actor_Movie", b =>
@@ -55,7 +55,7 @@ namespace eTickets.Migrations
 
                     b.HasIndex("MovieId");
 
-                    b.ToTable("Actors_Movies");
+                    b.ToTable("Actors_Movies", (string)null);
                 });
 
             modelBuilder.Entity("eTickets.Models.ApplicationUser", b =>
@@ -146,7 +146,7 @@ namespace eTickets.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Cinemas");
+                    b.ToTable("Cinemas", (string)null);
                 });
 
             modelBuilder.Entity("eTickets.Models.Movie", b =>
@@ -191,7 +191,7 @@ namespace eTickets.Migrations
 
                     b.HasIndex("ProducerId");
 
-                    b.ToTable("Movies");
+                    b.ToTable("Movies", (string)null);
                 });
 
             modelBuilder.Entity("eTickets.Models.Order", b =>
@@ -212,7 +212,7 @@ namespace eTickets.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("eTickets.Models.OrderItem", b =>
@@ -239,7 +239,7 @@ namespace eTickets.Migrations
 
                     b.HasIndex("OrderId");
 
-                    b.ToTable("OrderItems");
+                    b.ToTable("OrderItems", (string)null);
                 });
 
             modelBuilder.Entity("eTickets.Models.Producer", b =>
@@ -263,7 +263,7 @@ namespace eTickets.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Producers");
+                    b.ToTable("Producers", (string)null);
                 });
 
             modelBuilder.Entity("eTickets.Models.ShoppingCartItem", b =>
@@ -286,7 +286,7 @@ namespace eTickets.Migrations
 
                     b.HasIndex("MovieId");
 
-                    b.ToTable("ShoppingCartItems");
+                    b.ToTable("ShoppingCartItems", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

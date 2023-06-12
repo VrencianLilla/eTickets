@@ -13,34 +13,35 @@
 }
 else
 {
-
     @*User profile section*@
-    <div class="dropdown">
-        <button class="btn btn-outline-success dropdown-toggle" type="button" id="profile-btn" data-toggle="dropdown"
-                aria-expanded="false">
-            <i class="bi bi-person-badge"></i> Hello @UserManager.GetUserName(User)
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="profile-btn">
-            <li>
-                <a class="dropdown-item" asp-controller="Orders" asp-action="Index">
-                    <i class="bi bi-list"></i> Orders
-                </a>
-            </li>
+    <ul class="navbar-nav flex-grow-3">
+        
 
-            @if (User.IsInRole("Admin"))
-            {
-                <li>
-                    <a class="dropdown-item" asp-controller="Account" asp-action="Users">
-                        <i class="bi bi-people"></i> Users
-                    </a>
-                </li>
-            }
-        </ul>
-    </div>
+        @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+        {
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Users"><i class="bi bi-people"></i> Users</a>
+            </li>
+        }
+
+    </ul>
     <span style="padding: 5px;"></span>
     <form asp-controller="Account" asp-action="Logout">
         <button class="btn btn-outline-danger my-2 my-sm-0">
             <i class="bi bi-box-arrow-in-right"></i> Log out
         </button>
     </form>
+
+    <script defer>
+        const dropdownToggle = document.querySelector(".dropdown-toggle");
+        const dropdownMenu = document.querySelector(".dropdown-menu");
+        dropdownToggle.addEventListener("click", () => {
+            dropdownMenu.classList.toggle("show");
+            if (dropdownMenu.classList.contains("show")) {
+                dropdownMenu.style.display = "block";
+            } else {
+                dropdownMenu.style.display = "none";
+            }
+        })
+    </script>
 }

@@ -32,7 +32,7 @@ namespace eTickets.Controllers
 		}
 		public IActionResult ShoppingCart()
 		{
-			var items = _shoppingCart.GetShoppingCartItems();
+            var items = _shoppingCart.GetShoppingCartItems();
 			_shoppingCart.ShoppingCartItems = items;
 
 			var response = new ShoppingCartVM()

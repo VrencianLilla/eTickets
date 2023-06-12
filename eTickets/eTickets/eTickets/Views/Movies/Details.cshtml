@@ -54,12 +54,12 @@
 								}
 							</p>
 							<p class="card-text">
-								<b>Actor: </b>
+								<b>Actors: </b>
 								<hr></hr>
 								<div class="row">
 									@foreach(var actor in Model.Actors_Movies){
-										<div class="column text-center">
-											<img class="border-info rounded-circle" src="@actor.Actor.ProfilePictureURL" style="max-width: 150px"></img>
+										<div class="column">
+											<img class="border-info rounded-circle" src="@actor.Actor.ProfilePictureURL" style="width: 150px; height: 150px; object-fit:cover; display: flex; "></img>
 											<a asp-controller="Actors" asp-action="Details" asp-route-id="@actor.Actor.Id">@actor.Actor.FullName</a>
 										</div>
 									}

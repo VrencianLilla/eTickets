@@ -12,6 +12,7 @@
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Microsoft.EntityFrameworkCore.Design": "6.0.7",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.7",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.2",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.11",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.2"
         },
@@ -1016,6 +1017,7 @@
       },
       "Microsoft.NETCore.Platforms/1.1.1": {},
       "Microsoft.NETCore.Targets/1.1.3": {},
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.17.2": {},
       "Microsoft.VisualStudio.Debugger.Contracts/17.2.0": {
         "dependencies": {
           "MessagePack": "2.1.152",
@@ -2540,6 +2542,13 @@
       "sha512": "sha512-3Wrmi0kJDzClwAC+iBdUBpEKmEle8FQNsCs77fkiOIw/9oYA07bL1EZNX0kQ2OMN3xpwvl0vAtOCYY3ndDNlhQ==",
       "path": "microsoft.netcore.targets/1.1.3",
       "hashPath": "microsoft.netcore.targets.1.1.3.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.17.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5daNXm8Hb016oETmuHXiW8jclmRR9CzM7XrOh2htYhQ/7AAYtqntZ1MrZkh09+JTtdjYdGsy2XIMPe9cg83x5w==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.17.2",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Debugger.Contracts/17.2.0": {
       "type": "package",

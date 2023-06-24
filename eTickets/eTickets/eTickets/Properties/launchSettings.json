@@ -17,6 +17,13 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "ancmHostingModel": "OutOfProcess"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/Movies",
+      "publishAllPorts": true,
+      "useSSL": true
     }
   },
   "iisSettings": {

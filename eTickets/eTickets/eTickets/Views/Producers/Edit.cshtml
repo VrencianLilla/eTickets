@@ -14,6 +14,14 @@
                 <form asp-action="Edit">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
+                    <div class="form-group text-center">
+                        <img id="ProducerPictPreview" class="border-info rounded-circle" style="max-width: 150px" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="ProfilePictureURL" class="control-label"></label>
+                        <input asp-for="ProfilePictureURL" class="form-control" />
+                        <span asp-validation-for="ProfilePictureURL" class="text-danger"></span>
+                    </div>
                     <div class="form-group">
                         <label asp-for="FullName" class="control-label"></label>
                         <input asp-for="FullName" class="form-control" />
@@ -34,3 +42,16 @@
         </div>
     </div>
 </div>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            var output = document.getElementById('ProducerPictPreview');
+            output.src = $("#ProfilePictureURL").val();
+        })
+        $("#ProfilePictureURL").on("change", function () {
+            var output = document.getElementById('ProducerPictPreview');
+            output.src = $(this).val();
+        })
+    </script>
+}

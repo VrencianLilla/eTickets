@@ -61,7 +61,8 @@ namespace eTickets.Controllers
         [HttpPost]
         public async Task<IActionResult> Edit(int id, [Bind("Id, ProfilePictureURL, FullName, Bio")] Producer producer)
         {
-            if (!ModelState.IsValid) return View(producer);
+			ModelState.Remove("Movies");
+			if (!ModelState.IsValid) return View(producer);
 
             if (id == producer.Id)
             {

@@ -54,5 +54,5 @@ implementation.
 3. Controller: This mediates the data between the View and the Model. This is a first
 it accepts requests from users as a step, and then handles events
 and finally they perform data processing.
-(https://github.com/VrencianLilla/eTickets/assets/79305052/73dfc0db-a7e1-43ed-a092-c5e34e18dcb8)
+https://github.com/VrencianLilla/eTickets/assets/79305052/73dfc0db-a7e1-43ed-a092-c5e34e18dcb8
 

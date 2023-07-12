@@ -47,10 +47,12 @@ ASP.NET MVC
 For my project, I implemented it with ASP.NET MVC. ASP.NET MVC provides a powerful, pattern-based way to build dynamic websites that allows for clean separation of concerns and full control over markup
 for enjoyable, agile development.
 MVC
-The MVC (Figure 3.1) framework consists of the following main components:
+The MVC framework consists of the following main components:
 1. Model: This represents the data content and business logic of the web application. Data structures, database connections and business logic can be found here
 implementation.
 2. View: This is responsible for displaying data to users. Views are HTML-based templates.
 3. Controller: This mediates the data between the View and the Model. This is a first
 it accepts requests from users as a step, and then handles events
 and finally they perform data processing.
+(https://github.com/VrencianLilla/eTickets/assets/79305052/73dfc0db-a7e1-43ed-a092-c5e34e18dcb8)
+
